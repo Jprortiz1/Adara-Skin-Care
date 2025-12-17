@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adara Skin Care Clinic</title>
+    <meta name="description" content="Professional skin treatments, facials, acne solutions, and anti-aging care in a calm, modern clinic experience." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header" id="top">
+      <div class="container header__row">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand__name">Adara</span>
+          <span class="brand__tag">Skin Care Clinic</span>
+        </a>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a class="nav__link" href="#services">Services</a>
+          <a class="nav__link" href="#pricing">Pricing</a>
+          <a class="nav__link" href="#faq">FAQ</a>
+          <a class="nav__link" href="#contact">Contact</a>
+        </nav>
+
+        <div class="header__actions">
+          <a class="btn btn--ghost" href="#services">Explore</a>
+          <a class="btn btn--primary" href="#contact">Book / Contact</a>
+
+          <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="mobile" id="mobileMenu" hidden>
+        <div class="container mobile__inner">
+          <a class="mobile__link" href="#services">Services</a>
+          <a class="mobile__link" href="#pricing">Pricing</a>
+          <a class="mobile__link" href="#faq">FAQ</a>
+          <a class="mobile__link" href="#contact">Contact</a>
+          <a class="btn btn--primary mobile__cta" href="#contact">Book / Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" aria-label="Hero section">
+        <div class="hero__bg" role="img" aria-label="Clinic room background image"></div>
+        <div class="hero__overlay"></div>
+
+        <div class="container hero__content">
+          <p class="hero__eyebrow">Modern skin treatments • Calm clinic experience</p>
+          <h1 class="hero__title">Professional skin solutions, made simple.</h1>
+          <p class="hero__subtitle">
+            Discover facials, acne-focused care, and advanced rejuvenation treatments designed around your skin.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#services">Explore Treatments</a>
+            <a class="btn btn--ghost" href="#pricing">View Pricing</a>
+          </div>
+
+          <div class="hero__mini">
+            <div class="mini">
+              <p class="mini__label">Appointments</p>
+              <p class="mini__value">By booking</p>
+            </div>
+            <div class="mini">
+              <p class="mini__label">Focus</p>
+              <p class="mini__value">Results + comfort</p>
+            </div>
+            <div class="mini">
+              <p class="mini__label">Location</p>
+              <p class="mini__value">Add your city</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dark banner -->
+      <section class="banner">
+        <div class="banner__bg" role="img" aria-label="Reception background"></div>
+        <div class="banner__overlay"></div>
+
+        <div class="container banner__content">
+          <h2 class="banner__title">Transform your skin health</h2>
+          <p class="banner__text">
+            Elevated treatments, personalized recommendations, and a simple plan you can actually maintain.
+          </p>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Advanced treatments for radiant skin</h2>
+            <p class="section__subtitle">
+              Choose a treatment — we’ll tailor it to your skin type and goals.
+            </p>
+          </div>
+
+          <div class="grid">
+            <article class="card">
+              <div class="card__media" style="background-image:url('assets/service-1.jpg')"></div>
+              <div class="card__body">
+                <h3 class="card__title">Hydrating Facial Therapy</h3>
+                <p class="card__text">Deep hydration + glow support for tired, dull, or dehydrated skin.</p>
+                <a class="card__link" href="#contact">Book this →</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__media" style="background-image:url('assets/service-2.jpg')"></div>
+              <div class="card__body">
+                <h3 class="card__title">Advanced Anti-Aging Treatment</h3>
+                <p class="card__text">Firming + texture smoothing with a gentle, modern approach.</p>
+                <a class="card__link" href="#contact">Book this →</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__media" style="background-image:url('assets/service-3.jpg')"></div>
+              <div class="card__body">
+                <h3 class="card__title">Custom Acne Solutions</h3>
+                <p class="card__text">Targets breakouts at the source with a plan you can stick to.</p>
+                <a class="card__link" href="#contact">Book this →</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__media" style="background-image:url('assets/service-4.jpg')"></div>
+              <div class="card__body">
+                <h3 class="card__title">Brightening Vitamin C Peel</h3>
+                <p class="card__text">Helps even tone and brighten the look of your skin.</p>
+                <a class="card__link" href="#contact">Book this →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Split images section (like your big 2 images) -->
+      <section class="split">
+        <div class="split__img split__img--left" role="img" aria-label="Clinic interior"></div>
+        <div class="split__img split__img--right" role="img" aria-label="Reception area"></div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section section--muted" id="testimonials">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Patients share their success stories</h2>
+            <p class="section__subtitle">Real experiences. Calm vibe. Clear results.</p>
+          </div>
+
+          <div class="testimonials">
+            <article class="quote">
+              <div class="quote__top">
+                <div class="avatar" aria-hidden="true"></div>
+                <div>
+                  <p class="quote__name">Ella Thompson</p>
+                  <p class="quote__meta">Verified client</p>
+                </div>
+              </div>
+              <p class="quote__text">
+                “My skin has never felt this balanced and healthy. The consult was super detailed and the results were noticeable fast.”
+              </p>
+            </article>
+
+            <article class="quote">
+              <div class="quote__top">
+                <div class="avatar" aria-hidden="true"></div>
+                <div>
+                  <p class="quote__name">Jackie Morris</p>
+                  <p class="quote__meta">Verified client</p>
+                </div>
+              </div>
+              <p class="quote__text">
+                “Amazing experience. It feels like a luxury clinic but still very personal. My skin is glowing and I feel confident again.”
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Skin care services pricing</h2>
+            <p class="section__subtitle">Simple pricing tiers. Adjust these to your real prices.</p>
+          </div>
+
+          <div class="pricing">
+            <article class="price">
+              <h3 class="price__name">Basic Facial Treatment</h3>
+              <p class="price__value">$75 <span class="price__unit">/ session</span></p>
+              <p class="price__desc">A refreshing reset that cleanses and supports a healthy glow.</p>
+              <ul class="price__list">
+                <li>Deep clean</li>
+                <li>Exfoliation</li>
+                <li>Moisturizer</li>
+              </ul>
+              <a class="btn btn--ghost price__btn" href="#contact">More info</a>
+            </article>
+
+            <article class="price price--featured">
+              <div class="badge">Popular</div>
+              <h3 class="price__name">Advanced Skin Therapy</h3>
+              <p class="price__value">$150 <span class="price__unit">/ session</span></p>
+              <p class="price__desc">Includes everything from Basic + enhanced treatment options.</p>
+              <ul class="price__list">
+                <li>Anti-aging focus</li>
+                <li>Vitamin infusion</li>
+                <li>Mask therapy</li>
+              </ul>
+              <a class="btn btn--primary price__btn" href="#contact">More info</a>
+            </article>
+
+            <article class="price">
+              <h3 class="price__name">Premium Rejuvenation Package</h3>
+              <p class="price__value">$250 <span class="price__unit">/ session</span></p>
+              <p class="price__desc">Ultimate renewal with add-ons for visible skin improvements.</p>
+              <ul class="price__list">
+                <li>LED light therapy</li>
+                <li>Peel treatment</li>
+                <li>Collagen support</li>
+              </ul>
+              <a class="btn btn--ghost price__btn" href="#contact">More info</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section section--muted" id="faq">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Your skin care questions</h2>
+            <p class="section__subtitle">Tap a question to see the answer.</p>
+          </div>
+
+          <div class="faq" data-faq>
+            <button class="faq__item" type="button" aria-expanded="false">
+              <span class="faq__q">What types of skin care treatments do you offer?</span>
+              <span class="faq__icon" aria-hidden="true">+</span>
+              <span class="faq__a">
+                We offer facials, gentle peels, acne-focused treatments, and rejuvenation services tailored to your skin type and goals.
+              </span>
+            </button>
+
+            <button class="faq__item" type="button" aria-expanded="false">
+              <span class="faq__q">How do I know which treatment is right for me?</span>
+              <span class="faq__icon" aria-hidden="true">+</span>
+              <span class="faq__a">
+                Start with a consultation. We assess your skin and recommend the best option based on concerns, sensitivity, and desired results.
+              </span>
+            </button>
+
+            <button class="faq__item" type="button" aria-expanded="false">
+              <span class="faq__q">Are your treatments safe for sensitive skin?</span>
+              <span class="faq__icon" aria-hidden="true">+</span>
+              <span class="faq__a">
+                Yes — we can choose gentle protocols and adjust products based on your sensitivity and comfort level.
+              </span>
+            </button>
+
+            <button class="faq__item" type="button" aria-expanded="false">
+              <span class="faq__q">Do you offer products for at-home skin care?</span>
+              <span class="faq__icon" aria-hidden="true">+</span>
+              <span class="faq__a">
+                We can recommend a simple routine and professional-grade products to help maintain results between visits.
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Contact our expert team</h2>
+            <p class="section__subtitle">
+              Send a message and we’ll get back to you. (This form is front-end only; you can connect it later.)
+            </p>
+          </div>
+
+          <div class="contact">
+            <form class="form" id="contactForm">
+              <label class="field">
+                <span class="field__label">Name</span>
+                <input class="field__input" name="name" type="text" placeholder="Your name" required />
+              </label>
+
+              <label class="field">
+                <span class="field__label">Email</span>
+                <input class="field__input" name="email" type="email" placeholder="you@email.com" required />
+              </label>
+
+              <label class="field field--full">
+                <span class="field__label">Message</span>
+                <textarea class="field__input field__input--area" name="message" placeholder="How can we help?" required></textarea>
+              </label>
+
+              <div class="form__actions">
+                <button class="btn btn--primary" type="submit">Submit</button>
+                <a class="btn btn--ghost" href="#top">Back to top</a>
+              </div>
+
+              <p class="form__note" id="formNote" aria-live="polite"></p>
+            </form>
+
+            <aside class="contact__side">
+              <div class="info">
+                <h3 class="info__title">Clinic info</h3>
+                <p class="info__line"><strong>Hours:</strong> Mon–Sat • 10am–7pm</p>
+                <p class="info__line"><strong>Phone:</strong> (000) 000-0000</p>
+                <p class="info__line"><strong>Address:</strong> Add your address</p>
+
+                <div class="info__cta">
+                  <a class="btn btn--primary" href="tel:0000000000">Call now</a>
+                  <a class="btn btn--ghost" href="https://wa.me/10000000000" target="_blank" rel="noreferrer">WhatsApp</a>
+                </div>
+
+                <p class="info__small">
+                  Tip: Replace phone + WhatsApp with your real numbers.
+                </p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__row">
+        <p class="footer__left">© <span id="year"></span> Adara Skin Care Clinic</p>
+        <a class="footer__right" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
